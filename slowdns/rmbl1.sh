@@ -1,9 +1,9 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=crazyssh.art
+DOMAIN=crazyssh.group
 sub=$(cat /root/subdomainx)
-dns=${sub}.crazyssh.art
-dns2=*.${sub}.crazyssh.art
+dns=${sub}.crazyssh.group
+dns2=*.${sub}.crazyssh.group
 CF_ID=boagoda@gmail.com
 CF_KEY=ed96bc4c92cd2143fcf9d5f8c585e218bfa98
 set -euo pipefail
@@ -43,10 +43,10 @@ echo $dns > /root/domain
 echo "$dns" > /etc/xray/domain
 echo "$dn!������MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
-DOMAIN=crazyssh.art
+DOMAIN=crazyssh.group
 sub=$(cat /root/subdomainx)
-dns=${sub}.crazyssh.art
-dns2=*.${sub}.crazyssh.art
+dns=${sub}.crazyssh.group
+dns2=*.${sub}.crazyssh.group
 CF_ID=boagoda@gmail.com
 CF_KEY=ed96bc4c92cd2143fcf9d5f8c585e218bfa98
 set -euo pipefail
