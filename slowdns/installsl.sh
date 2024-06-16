@@ -1,9 +1,9 @@
 #!/bin/sh
 ns_domain_cloudflare() {
-	DOMAIN="crazyssh.lol"
+	DOMAIN="crazyssh.net"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
-	SUB_DOMAIN=${SUB}".crazyssh.lol"
+	SUB_DOMAIN=${SUB}".crazyssh.net"
 	NS_DOMAIN=ns.${SUB_DOMAIN}
 	CF_ID=boagoda@gmail.com
         CF_KEY=ed96bc4c92cd2143fcf9d5f8c585e218bfa98
