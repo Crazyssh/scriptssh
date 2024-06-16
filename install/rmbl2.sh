@@ -3,10 +3,10 @@
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 
-DOMAIN=crazyssh.live
+DOMAIN=crazyssh.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 #subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}.crazyssh.live
+dns=${sub}.crazyssh.xyz
 #NS_dns=slowdns-${subsl}.asw.my.id
 CF_ID=boagoda@gmail.com
 CF_KEY=ed96bc4c92cd2143fcf9d5f8c585e218bfa98
